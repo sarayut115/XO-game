@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to TOP, #2980b9, #6dd5fa, #ffffff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right, #4caf50, #2196f3);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    background: linear-gradient(to right, #388e3c, #1976d2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 300px;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #f5f5f5;
+}
+
